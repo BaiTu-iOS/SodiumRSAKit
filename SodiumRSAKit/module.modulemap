@@ -1,0 +1,9 @@
+// Created by yuxilong on 2026/11/24.
+module SodiumRSAKit {
+    header "Sodium/SodiumCrypto.h"
+    header "RSATool/BTRSATools.h"
+    header "Sodium/SodiumObjc/SodiumObjc.h"
+    header "Sodium/NAChloride/NAChloride.h"
+    header "Sodium/include/sodium/sodium_lib.h"
+    export *
+}

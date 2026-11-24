@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E46C54D57AFAC824E7A8AAE /* SodiumCryptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D4BCC38187B3887CCE98 /* SodiumCryptoTests.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -19,11 +20,12 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6003F5BC195388D20070C39A /* BuildFile in Sources */ = {isa = PBXBuildFile; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7EA88935F52E51341A59F145 /* Pods_SodiumRSAKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC356533F5E6542404523660 /* Pods_SodiumRSAKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9344B1978101B91A155F6CDE /* Pods_SodiumRSAKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BF19B4B7E8FE8BC0D1BE64 /* Pods_SodiumRSAKit_Tests.framework */; };
+		CD08AEB9BF83ED18614CF82D /* BTRSAToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97389050DD4BCEE40B03D3A /* BTRSAToolsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +62,12 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D80D4BCC38187B3887CCE98 /* SodiumCryptoTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SodiumCryptoTests.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7CBFF819A9398960BCF99CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C97389050DD4BCEE40B03D3A /* BTRSAToolsTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTRSAToolsTests.m; sourceTree = "<group>"; };
 		EDEA519E92DAEE9AA4F08F82 /* Pods-SodiumRSAKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodiumRSAKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-SodiumRSAKit_Tests/Pods-SodiumRSAKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FC356533F5E6542404523660 /* Pods_SodiumRSAKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SodiumRSAKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -159,8 +162,9 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				7D80D4BCC38187B3887CCE98 /* SodiumCryptoTests.m */,
+				C97389050DD4BCEE40B03D3A /* BTRSAToolsTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -358,7 +362,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				6003F5BC195388D20070C39A /* BuildFile in Sources */,
+				4E46C54D57AFAC824E7A8AAE /* SodiumCryptoTests.m in Sources */,
+				CD08AEB9BF83ED18614CF82D /* BTRSAToolsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,14 +1,14 @@
 PODS:
-  - SodiumRSAKit (1.0.0):
+  - SodiumRSAKit (1.1.0):
     - SodiumRSAKit/Core
-  - SodiumRSAKit/Core (1.0.0):
+  - SodiumRSAKit/Core (1.1.0):
     - SodiumRSAKit/RSATool
     - SodiumRSAKit/Sodium
-  - SodiumRSAKit/Headers (1.0.0)
-  - SodiumRSAKit/RSATool (1.0.0)
-  - SodiumRSAKit/Runtime (1.0.0):
+  - SodiumRSAKit/Headers (1.1.0)
+  - SodiumRSAKit/RSATool (1.1.0)
+  - SodiumRSAKit/Runtime (1.1.0):
     - SodiumRSAKit/Headers
-  - SodiumRSAKit/Sodium (1.0.0):
+  - SodiumRSAKit/Sodium (1.1.0):
     - SodiumRSAKit/Runtime
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SodiumRSAKit: 9bf483ba85340f8377cf4d12a74f5c993fc28ec4
+  SodiumRSAKit: 75d8b111ecd758e41a30c863cdea3ca83e3ae5d4
 
 PODFILE CHECKSUM: 7dfa5dee3e7db88012cf90715e428dd17f01a58b
 

@@ -1,7 +1,7 @@
 # Created by yuxilong on 2026/11/24.
 Pod::Spec.new do |s|
   s.name = 'SodiumRSAKit'
-  s.version = '1.0.0'
+  s.version = '1.1.0'
   s.summary = 'Objective-C authenticated encryption and RSA utilities for iOS.'
   s.homepage = 'https://github.com/BaiTu-iOS/SodiumRSAKit'
   s.author = 'BaiTu-iOS'

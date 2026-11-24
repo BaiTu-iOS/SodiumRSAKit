@@ -1,21 +1,50 @@
-name: Build
+name: Tests
 on: [push, pull_request]
 permissions:
   contents: read
 jobs:
   ios:
     runs-on: macos-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        integration: [cocoapods, spm]
     steps:
       - uses: actions/checkout@v4
+      - name: Select an available iPhone simulator
+        id: simulator
+        shell: bash
+        run: |
+          set -euo pipefail
+          device_id=$(xcrun simctl list devices available -j | ruby -rjson -e 'puts JSON.parse(STDIN.read).fetch("devices").values.flatten.find { |d| d.fetch("isAvailable") && d.fetch("name").start_with?("iPhone") }.fetch("udid")')
+          echo "id=$device_id" >> "$GITHUB_OUTPUT"
       - name: Install CocoaPods
+        if: matrix.integration == 'cocoapods'
         run: gem install cocoapods --no-document
       - name: Install example dependencies
+        if: matrix.integration == 'cocoapods'
         working-directory: Example
         run: pod install
-      - name: Build library, example, and regression target
+      - name: Test CocoaPods integration
+        if: matrix.integration == 'cocoapods'
         run: >-
-          xcodebuild build-for-testing
+          xcodebuild test
           -workspace Example/SodiumRSAKit.xcworkspace
           -scheme SodiumRSAKit-Example
-          -destination 'generic/platform=iOS Simulator'
+          -destination 'platform=iOS Simulator,id=${{ steps.simulator.outputs.id }}'
+          -enableCodeCoverage YES
+          -resultBundlePath TestResults/CocoaPods.xcresult
           CODE_SIGNING_ALLOWED=NO
+      - name: Test Swift Package Manager integration
+        if: matrix.integration == 'spm'
+        run: >-
+          xcodebuild test -scheme SodiumRSAKit
+          -destination 'platform=iOS Simulator,id=${{ steps.simulator.outputs.id }}'
+          -resultBundlePath TestResults/SPM.xcresult
+          CODE_SIGNING_ALLOWED=NO
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-results-${{ matrix.integration }}
+          path: TestResults
+          if-no-files-found: ignore

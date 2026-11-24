@@ -38,3 +38,7 @@ Pods/
 .tmp/
 .wk-lark-wiki/
 *.xcresult
+
+.build/
+.swiftpm/
+TestResults/
