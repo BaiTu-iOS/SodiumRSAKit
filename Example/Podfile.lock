@@ -1,0 +1,26 @@
+PODS:
+  - BTCrypto (1.0.0):
+    - BTCrypto/Core
+  - BTCrypto/Core (1.0.0):
+    - BTCrypto/RSATool
+    - BTCrypto/Sodium
+  - BTCrypto/Headers (1.0.0)
+  - BTCrypto/RSATool (1.0.0)
+  - BTCrypto/Runtime (1.0.0):
+    - BTCrypto/Headers
+  - BTCrypto/Sodium (1.0.0):
+    - BTCrypto/Runtime
+
+DEPENDENCIES:
+  - BTCrypto (from `../`)
+
+EXTERNAL SOURCES:
+  BTCrypto:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BTCrypto: 2a6f0098b00b45971fcbb7618cd03746141afc65
+
+PODFILE CHECKSUM: f060f83ab4dedfb768f9c7ca7bb729fef6880edd
+
+COCOAPODS: 1.15.2

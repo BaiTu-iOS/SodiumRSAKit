@@ -1,0 +1,12 @@
+# Created by yuxilong on 2026/11/24.
+source 'https://cdn.cocoapods.org/'
+platform :ios, '15.0'
+use_frameworks! :linkage => :static
+
+target 'BTCrypto_Example' do
+  pod 'BTCrypto', :path => '../'
+
+  target 'BTCrypto_Tests' do
+    inherit! :search_paths
+  end
+end

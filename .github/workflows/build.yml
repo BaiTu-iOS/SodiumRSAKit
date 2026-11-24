@@ -1,0 +1,21 @@
+name: Build
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  ios:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install CocoaPods
+        run: gem install cocoapods --no-document
+      - name: Install example dependencies
+        working-directory: Example
+        run: pod install
+      - name: Build library, example, and regression target
+        run: >-
+          xcodebuild build-for-testing
+          -workspace Example/BTCrypto.xcworkspace
+          -scheme BTCrypto-Example
+          -destination 'generic/platform=iOS Simulator'
+          CODE_SIGNING_ALLOWED=NO
