@@ -15,7 +15,7 @@ jobs:
       - name: Build library, example, and regression target
         run: >-
           xcodebuild build-for-testing
-          -workspace Example/BTCrypto.xcworkspace
-          -scheme BTCrypto-Example
+          -workspace Example/SodiumRSAKit.xcworkspace
+          -scheme SodiumRSAKit-Example
           -destination 'generic/platform=iOS Simulator'
           CODE_SIGNING_ALLOWED=NO

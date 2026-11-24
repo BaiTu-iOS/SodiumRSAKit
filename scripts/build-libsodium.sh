@@ -46,5 +46,5 @@ xcodebuild -create-xcframework \
   -output "$WORK/libsodium.xcframework"
 
 # 成功封装后才替换产物，公开头文件继续使用仓库内的同版本头文件。
-rm -rf "$ROOT/BTCrypto/Sodium/libsodium.xcframework"
-mv "$WORK/libsodium.xcframework" "$ROOT/BTCrypto/Sodium/"
+rm -rf "$ROOT/SodiumRSAKit/Sodium/libsodium.xcframework"
+mv "$WORK/libsodium.xcframework" "$ROOT/SodiumRSAKit/Sodium/"

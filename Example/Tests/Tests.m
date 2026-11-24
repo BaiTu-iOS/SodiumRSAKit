@@ -1,9 +1,9 @@
 // Created by yuxilong on 2026/11/24.
 #import <XCTest/XCTest.h>
 #import <Security/Security.h>
-#import <BTCrypto/BTCrypto.h>
-#import <BTCrypto/SodiumObjc.h>
-#import <BTCrypto/sodium.h>
+#import <SodiumRSAKit/SodiumRSAKit.h>
+#import <SodiumRSAKit/SodiumObjc.h>
+#import <SodiumRSAKit/sodium.h>
 
 @interface Tests : XCTestCase
 @end

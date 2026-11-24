@@ -21,9 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7EA88935F52E51341A59F145 /* Pods_BTCrypto_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC356533F5E6542404523660 /* Pods_BTCrypto_Example.framework */; };
+		7EA88935F52E51341A59F145 /* Pods_SodiumRSAKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC356533F5E6542404523660 /* Pods_SodiumRSAKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9344B1978101B91A155F6CDE /* Pods_BTCrypto_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BF19B4B7E8FE8BC0D1BE64 /* Pods_BTCrypto_Tests.framework */; };
+		9344B1978101B91A155F6CDE /* Pods_SodiumRSAKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BF19B4B7E8FE8BC0D1BE64 /* Pods_SodiumRSAKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,31 +32,31 @@
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = BTCrypto;
+			remoteInfo = SodiumRSAKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03AA795C3CCBDB7F8C89FC1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		03BF19B4B7E8FE8BC0D1BE64 /* Pods_BTCrypto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTCrypto_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F08928EAE3F4E8646782EC8 /* Pods-BTCrypto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCrypto_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BTCrypto_Tests/Pods-BTCrypto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		159199D5C646851CA5B4129C /* Pods-BTCrypto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCrypto_Example.release.xcconfig"; path = "Target Support Files/Pods-BTCrypto_Example/Pods-BTCrypto_Example.release.xcconfig"; sourceTree = "<group>"; };
-		27B3B617FCB73043A9F8E875 /* BTCrypto.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BTCrypto.podspec; path = ../BTCrypto.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2D22AAA3B938A8E3BE740BC2 /* Pods-BTCrypto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCrypto_Example.debug.xcconfig"; path = "Target Support Files/Pods-BTCrypto_Example/Pods-BTCrypto_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* BTCrypto_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCrypto_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BF19B4B7E8FE8BC0D1BE64 /* Pods_SodiumRSAKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SodiumRSAKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F08928EAE3F4E8646782EC8 /* Pods-SodiumRSAKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodiumRSAKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SodiumRSAKit_Tests/Pods-SodiumRSAKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		159199D5C646851CA5B4129C /* Pods-SodiumRSAKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodiumRSAKit_Example.release.xcconfig"; path = "Target Support Files/Pods-SodiumRSAKit_Example/Pods-SodiumRSAKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		27B3B617FCB73043A9F8E875 /* SodiumRSAKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SodiumRSAKit.podspec; path = ../SodiumRSAKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2D22AAA3B938A8E3BE740BC2 /* Pods-SodiumRSAKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodiumRSAKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-SodiumRSAKit_Example/Pods-SodiumRSAKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* SodiumRSAKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SodiumRSAKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* BTCrypto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTCrypto-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* SodiumRSAKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SodiumRSAKit-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* BTCrypto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTCrypto-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* SodiumRSAKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SodiumRSAKit-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* BTCrypto_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCrypto_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* SodiumRSAKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodiumRSAKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -65,8 +65,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7CBFF819A9398960BCF99CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EDEA519E92DAEE9AA4F08F82 /* Pods-BTCrypto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCrypto_Tests.release.xcconfig"; path = "Target Support Files/Pods-BTCrypto_Tests/Pods-BTCrypto_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FC356533F5E6542404523660 /* Pods_BTCrypto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTCrypto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEA519E92DAEE9AA4F08F82 /* Pods-SodiumRSAKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodiumRSAKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-SodiumRSAKit_Tests/Pods-SodiumRSAKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FC356533F5E6542404523660 /* Pods_SodiumRSAKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SodiumRSAKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7EA88935F52E51341A59F145 /* Pods_BTCrypto_Example.framework in Frameworks */,
+				7EA88935F52E51341A59F145 /* Pods_SodiumRSAKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9344B1978101B91A155F6CDE /* Pods_BTCrypto_Tests.framework in Frameworks */,
+				9344B1978101B91A155F6CDE /* Pods_SodiumRSAKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for BTCrypto */,
+				6003F593195388D20070C39A /* Example for SodiumRSAKit */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -110,8 +110,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* BTCrypto_Example.app */,
-				6003F5AE195388D20070C39A /* BTCrypto_Tests.xctest */,
+				6003F58A195388D20070C39A /* SodiumRSAKit_Example.app */,
+				6003F5AE195388D20070C39A /* SodiumRSAKit_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,13 +123,13 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				FC356533F5E6542404523660 /* Pods_BTCrypto_Example.framework */,
-				03BF19B4B7E8FE8BC0D1BE64 /* Pods_BTCrypto_Tests.framework */,
+				FC356533F5E6542404523660 /* Pods_SodiumRSAKit_Example.framework */,
+				03BF19B4B7E8FE8BC0D1BE64 /* Pods_SodiumRSAKit_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for BTCrypto */ = {
+		6003F593195388D20070C39A /* Example for SodiumRSAKit */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* BTAppDelegate.h */,
@@ -141,17 +141,17 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for BTCrypto";
-			path = BTCrypto;
+			name = "Example for SodiumRSAKit";
+			path = SodiumRSAKit;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* BTCrypto-Info.plist */,
+				6003F595195388D20070C39A /* SodiumRSAKit-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* BTCrypto-Prefix.pch */,
+				6003F59B195388D20070C39A /* SodiumRSAKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				27B3B617FCB73043A9F8E875 /* BTCrypto.podspec */,
+				27B3B617FCB73043A9F8E875 /* SodiumRSAKit.podspec */,
 				03AA795C3CCBDB7F8C89FC1A /* README.md */,
 				B7CBFF819A9398960BCF99CF /* LICENSE */,
 			);
@@ -188,10 +188,10 @@
 		F83B72E6996FEBF2F308FDEF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2D22AAA3B938A8E3BE740BC2 /* Pods-BTCrypto_Example.debug.xcconfig */,
-				159199D5C646851CA5B4129C /* Pods-BTCrypto_Example.release.xcconfig */,
-				0F08928EAE3F4E8646782EC8 /* Pods-BTCrypto_Tests.debug.xcconfig */,
-				EDEA519E92DAEE9AA4F08F82 /* Pods-BTCrypto_Tests.release.xcconfig */,
+				2D22AAA3B938A8E3BE740BC2 /* Pods-SodiumRSAKit_Example.debug.xcconfig */,
+				159199D5C646851CA5B4129C /* Pods-SodiumRSAKit_Example.release.xcconfig */,
+				0F08928EAE3F4E8646782EC8 /* Pods-SodiumRSAKit_Tests.debug.xcconfig */,
+				EDEA519E92DAEE9AA4F08F82 /* Pods-SodiumRSAKit_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -199,9 +199,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* BTCrypto_Example */ = {
+		6003F589195388D20070C39A /* SodiumRSAKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BTCrypto_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SodiumRSAKit_Example" */;
 			buildPhases = (
 				C721860DF5B5AA9DCF5D9799 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -212,14 +212,14 @@
 			);
 			dependencies = (
 			);
-			name = BTCrypto_Example;
-			productName = BTCrypto;
-			productReference = 6003F58A195388D20070C39A /* BTCrypto_Example.app */;
+			name = SodiumRSAKit_Example;
+			productName = SodiumRSAKit;
+			productReference = 6003F58A195388D20070C39A /* SodiumRSAKit_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* BTCrypto_Tests */ = {
+		6003F5AD195388D20070C39A /* SodiumRSAKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BTCrypto_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SodiumRSAKit_Tests" */;
 			buildPhases = (
 				AD74874DA68AE0597EFAC913 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
@@ -231,9 +231,9 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = BTCrypto_Tests;
-			productName = BTCryptoTests;
-			productReference = 6003F5AE195388D20070C39A /* BTCrypto_Tests.xctest */;
+			name = SodiumRSAKit_Tests;
+			productName = SodiumRSAKitTests;
+			productReference = 6003F5AE195388D20070C39A /* SodiumRSAKit_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "BTCrypto" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "SodiumRSAKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -268,8 +268,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* BTCrypto_Example */,
-				6003F5AD195388D20070C39A /* BTCrypto_Tests */,
+				6003F589195388D20070C39A /* SodiumRSAKit_Example */,
+				6003F5AD195388D20070C39A /* SodiumRSAKit_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +312,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BTCrypto_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SodiumRSAKit_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -334,7 +334,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BTCrypto_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SodiumRSAKit_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,7 +367,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* BTCrypto_Example */;
+			target = 6003F589195388D20070C39A /* SodiumRSAKit_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -475,19 +475,19 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D22AAA3B938A8E3BE740BC2 /* Pods-BTCrypto_Example.debug.xcconfig */;
+			baseConfigurationReference = 2D22AAA3B938A8E3BE740BC2 /* Pods-SodiumRSAKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BTCrypto/BTCrypto-Prefix.pch";
-				INFOPLIST_FILE = "BTCrypto/BTCrypto-Info.plist";
+				GCC_PREFIX_HEADER = "SodiumRSAKit/SodiumRSAKit-Prefix.pch";
+				INFOPLIST_FILE = "SodiumRSAKit/SodiumRSAKit-Info.plist";
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-framework",
-					"\"BTCrypto\"",
+					"\"SodiumRSAKit\"",
 					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -499,19 +499,19 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 159199D5C646851CA5B4129C /* Pods-BTCrypto_Example.release.xcconfig */;
+			baseConfigurationReference = 159199D5C646851CA5B4129C /* Pods-SodiumRSAKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BTCrypto/BTCrypto-Prefix.pch";
-				INFOPLIST_FILE = "BTCrypto/BTCrypto-Info.plist";
+				GCC_PREFIX_HEADER = "SodiumRSAKit/SodiumRSAKit-Prefix.pch";
+				INFOPLIST_FILE = "SodiumRSAKit/SodiumRSAKit-Info.plist";
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-framework",
-					"\"BTCrypto\"",
+					"\"SodiumRSAKit\"",
 					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -523,7 +523,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F08928EAE3F4E8646782EC8 /* Pods-BTCrypto_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0F08928EAE3F4E8646782EC8 /* Pods-SodiumRSAKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -541,14 +541,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTCrypto_Example.app/BTCrypto_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SodiumRSAKit_Example.app/SodiumRSAKit_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDEA519E92DAEE9AA4F08F82 /* Pods-BTCrypto_Tests.release.xcconfig */;
+			baseConfigurationReference = EDEA519E92DAEE9AA4F08F82 /* Pods-SodiumRSAKit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -562,7 +562,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTCrypto_Example.app/BTCrypto_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SodiumRSAKit_Example.app/SodiumRSAKit_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -570,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "BTCrypto" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "SodiumRSAKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -579,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BTCrypto_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SodiumRSAKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -588,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BTCrypto_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SodiumRSAKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,

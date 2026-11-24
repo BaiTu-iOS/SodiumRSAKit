@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "BTCrypto_Example.app"
-               BlueprintName = "BTCrypto_Example"
-               ReferencedContainer = "container:BTCrypto.xcodeproj">
+               BuildableName = "SodiumRSAKit_Example.app"
+               BlueprintName = "SodiumRSAKit_Example"
+               ReferencedContainer = "container:SodiumRSAKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "BTCrypto_Example.app"
-            BlueprintName = "BTCrypto_Example"
-            ReferencedContainer = "container:BTCrypto.xcodeproj">
+            BuildableName = "SodiumRSAKit_Example.app"
+            BlueprintName = "SodiumRSAKit_Example"
+            ReferencedContainer = "container:SodiumRSAKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -42,9 +42,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "BTCrypto_Tests.xctest"
-               BlueprintName = "BTCrypto_Tests"
-               ReferencedContainer = "container:BTCrypto.xcodeproj">
+               BuildableName = "SodiumRSAKit_Tests.xctest"
+               BlueprintName = "SodiumRSAKit_Tests"
+               ReferencedContainer = "container:SodiumRSAKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "BTCrypto_Example.app"
-            BlueprintName = "BTCrypto_Example"
-            ReferencedContainer = "container:BTCrypto.xcodeproj">
+            BuildableName = "SodiumRSAKit_Example.app"
+            BlueprintName = "SodiumRSAKit_Example"
+            ReferencedContainer = "container:SodiumRSAKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -81,9 +81,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "BTCrypto_Example.app"
-            BlueprintName = "BTCrypto_Example"
-            ReferencedContainer = "container:BTCrypto.xcodeproj">
+            BuildableName = "SodiumRSAKit_Example.app"
+            BlueprintName = "SodiumRSAKit_Example"
+            ReferencedContainer = "container:SodiumRSAKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

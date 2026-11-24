@@ -1,6 +1,6 @@
 //
 //  SodiumCrypto.h
-//  BTCrypto
+//  SodiumRSAKit
 //
 //  Created by yuxilong on 2022/7/12.
 //

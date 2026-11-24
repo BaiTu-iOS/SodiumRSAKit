@@ -1,37 +1,43 @@
-# BTCrypto
+# SodiumRSAKit
 
 Objective-C encryption utilities for iOS 15 and later. Includes authenticated public-key encryption backed by libsodium and RSA PKCS#1 v1.5 interoperability helpers.
 
 ## Installation
 
-The public release starts at **1.0.0**. Until a release tag and pod specification are published, use a local checkout:
+The public release starts at **1.0.0**. Use a local checkout during development:
 
 ```ruby
-pod 'BTCrypto', :path => '../BTCrypto'
+pod 'SodiumRSAKit', :path => '../SodiumRSAKit'
+```
+
+The public repository can be used directly before the first tagged release:
+
+```ruby
+pod 'SodiumRSAKit', :git => 'https://github.com/BaiTu-iOS/SodiumRSAKit.git', :branch => 'main'
 ```
 
 After the `1.0.0` tag is published:
 
 ```ruby
-pod 'BTCrypto', :git => 'https://github.com/BaiTu-iOS/BTCrypto.git', :tag => '1.0.0'
+pod 'SodiumRSAKit', :git => 'https://github.com/BaiTu-iOS/SodiumRSAKit.git', :tag => '1.0.0'
 ```
 
 No private spec repository, plugin, access token, or binary-mode environment variable is required. This repository does not claim availability on CocoaPods trunk.
 
 | Subspec | Contents |
 | --- | --- |
-| `Core` (default) | `BTCrypto.h`, Sodium and RSA wrappers |
+| `Core` (default) | `SodiumRSAKit.h`, Sodium and RSA wrappers |
 | `Sodium` | `SodiumCrypto` and its runtime |
 | `RSATool` | `BTRSATools`, using Apple's Security framework |
 | `Runtime` | libsodium and existing Objective-C bindings for applications with their own wrappers |
 
-`Runtime` exposes `SodiumObjc.h`, `NAChloride.h`, and `sodium.h` through the `BTCrypto` module. Select it with `pod 'BTCrypto/Runtime', :path => '../BTCrypto'`. Do not link another copy of libsodium or these Objective-C classes into the same application. The bindings include inherited APIs beyond the public-key path exercised by the example; they have not received a complete security audit.
+`Runtime` exposes `SodiumObjc.h`, `NAChloride.h`, and `sodium.h` through the `SodiumRSAKit` module. Select it with `pod 'SodiumRSAKit/Runtime', :path => '../SodiumRSAKit'`. Do not link another copy of libsodium or these Objective-C classes into the same application. The bindings include inherited APIs beyond the public-key path exercised by the example; they have not received a complete security audit.
 
 ## Authenticated encryption
 
 ```objective-c
-#import <BTCrypto/BTCrypto.h>
-#import <BTCrypto/SodiumObjc.h>
+#import <SodiumRSAKit/SodiumRSAKit.h>
+#import <SodiumRSAKit/SodiumObjc.h>
 
 NACLAsymmetricKeyPair *sender = [[NACLAsymmetricKeyPair alloc] init];
 NACLAsymmetricKeyPair *recipient = [[NACLAsymmetricKeyPair alloc] init];
@@ -59,7 +65,7 @@ The example generates temporary keys. Applications own key distribution and stor
 ## RSA interoperability
 
 ```objective-c
-#import <BTCrypto/BTRSATools.h>
+#import <SodiumRSAKit/BTRSATools.h>
 // publicKey is a Base64 DER SubjectPublicKeyInfo RSA key supplied by your application.
 NSString *ciphertext = [BTRSATools encryptPlainText:@"Hello, world!" publicKey:publicKey];
 ```
@@ -75,10 +81,10 @@ RSA v1.5 is provided for existing protocols, not as a new authenticated messagin
 ```sh
 cd Example
 pod install
-open BTCrypto.xcworkspace
+open SodiumRSAKit.xcworkspace
 ```
 
-Run `BTCrypto-Example` to see the decrypted sample text. The `BTCrypto_Tests` target contains one interoperability regression covering detached Sodium framing, tamper rejection, malformed inputs, and RSA round trips with temporary keys. Select a supported destination in Xcode before running tests.
+Run `SodiumRSAKit-Example` to see the decrypted sample text. The `SodiumRSAKit_Tests` target contains one interoperability regression covering detached Sodium framing, tamper rejection, malformed inputs, and RSA round trips with temporary keys. Select a supported destination in Xcode before running tests.
 
 ## Bundled native library
 
@@ -94,4 +100,4 @@ The script verifies the source archive SHA-256 before building. Platform slices 
 
 ## License
 
-BTCrypto is distributed under the [MIT license](LICENSE). Bundled dependencies retain their own notices; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+SodiumRSAKit is distributed under the [MIT license](LICENSE). Bundled dependencies retain their own notices; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

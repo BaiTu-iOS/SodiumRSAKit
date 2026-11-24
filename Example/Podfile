@@ -3,10 +3,10 @@ source 'https://cdn.cocoapods.org/'
 platform :ios, '15.0'
 use_frameworks! :linkage => :static
 
-target 'BTCrypto_Example' do
-  pod 'BTCrypto', :path => '../'
+target 'SodiumRSAKit_Example' do
+  pod 'SodiumRSAKit', :path => '../'
 
-  target 'BTCrypto_Tests' do
+  target 'SodiumRSAKit_Tests' do
     inherit! :search_paths
   end
 end

@@ -1,26 +1,26 @@
 PODS:
-  - BTCrypto (1.0.0):
-    - BTCrypto/Core
-  - BTCrypto/Core (1.0.0):
-    - BTCrypto/RSATool
-    - BTCrypto/Sodium
-  - BTCrypto/Headers (1.0.0)
-  - BTCrypto/RSATool (1.0.0)
-  - BTCrypto/Runtime (1.0.0):
-    - BTCrypto/Headers
-  - BTCrypto/Sodium (1.0.0):
-    - BTCrypto/Runtime
+  - SodiumRSAKit (1.0.0):
+    - SodiumRSAKit/Core
+  - SodiumRSAKit/Core (1.0.0):
+    - SodiumRSAKit/RSATool
+    - SodiumRSAKit/Sodium
+  - SodiumRSAKit/Headers (1.0.0)
+  - SodiumRSAKit/RSATool (1.0.0)
+  - SodiumRSAKit/Runtime (1.0.0):
+    - SodiumRSAKit/Headers
+  - SodiumRSAKit/Sodium (1.0.0):
+    - SodiumRSAKit/Runtime
 
 DEPENDENCIES:
-  - BTCrypto (from `../`)
+  - SodiumRSAKit (from `../`)
 
 EXTERNAL SOURCES:
-  BTCrypto:
+  SodiumRSAKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BTCrypto: 2a6f0098b00b45971fcbb7618cd03746141afc65
+  SodiumRSAKit: 9bf483ba85340f8377cf4d12a74f5c993fc28ec4
 
-PODFILE CHECKSUM: f060f83ab4dedfb768f9c7ca7bb729fef6880edd
+PODFILE CHECKSUM: 7dfa5dee3e7db88012cf90715e428dd17f01a58b
 
 COCOAPODS: 1.15.2
